@@ -7,7 +7,6 @@ html {
   --white-color: #ffffff;
   --accent-color: #f7941e;
   --secondary-background-color: #f1f1f2;
-  --bcg-color-lastsection: #231f20;
   --base-icon-color: #000000;
 }
 
@@ -31,11 +30,20 @@ p {
   height: auto;
 }
 
+ul{
+margin: 0;
+padding: 0;}
+
 img {
   display: block;
 }
 
+a{
+text-decoration: none;
+}
+
 .link {
+  list-style: none;
   text-decoration: none;
 }
 
@@ -49,6 +57,38 @@ img {
   padding-right: 4px;
   margin-left: auto;
   margin-right: auto;
+}
+
+/* Header */
+.header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+padding-top: 36px;
+padding-bottom: 35px;
+}
+.logo{
+  font-family: Homemade Apple;
+  font-style: Regular;
+  font-size: 18px;
+  line-height: 2.17;
+  align-items: center;
+  color: var(--brand-color);
+}
+
+.nav{
+display: flex;
+gap: 31px;
+}
+
+.nav-link{
+font-size: 18px;
+line-height: 1.22;
+display: flex;
+align-items: center;
+
+color: currentColor;
 }
 
 /* Footer */
