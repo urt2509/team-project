@@ -7,7 +7,7 @@ html {
   --white-color: #ffffff;
   --accent-color: #f7941e;
   --secondary-background-color: #f1f1f2;
-  --bcg-color-lastsection: #231f20;
+  --bcg-color-last-section: #231f20;
   --base-icon-color: #000000;
 }
 
@@ -31,7 +31,7 @@ p {
   height: auto;
 }
 
-a{
+a {
   text-decoration: none;
 }
 img {
@@ -54,31 +54,100 @@ img {
   margin-right: auto;
 }
 
-
 /*Header*/
 
-.logo{
-font-family: 'Homemade Apple';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 2.17;
-display: flex;
-align-items: center;
-text-align: center;
-color: var(--bcg-color-lastsection);
-
-
+.logo {
+  font-family: "Homemade Apple";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 2.17;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: var(--bcg-color-lastsection);
 }
 
-.nav-link{
-font-size: 18px;
-line-height: 1.2;
-display: flex;
-align-items: center;
-color: var(--base-icon-color);
+.nav-link {
+  font-size: 18px;
+  line-height: 1.2;
+  display: flex;
+  align-items: center;
+  color: var(--base-icon-color);
 }
-
+/*last-section*/
+.last-section {
+  padding: 80px 135px;
+  box-sizing: border-box;
+  display: inline-block;
+  width: 1440px;
+}
+.last-section-card {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  background-color: var(--bcg-color-last-section);
+}
+.last-section-card-text {
+  color: var(--white-color);
+  padding-top: 63px;
+  padding-left: 78px;
+}
+.last-section-card-name {
+  font-family: "Gilroy";
+  font-size: 14px;
+  line-height: 140.62%;
+  margin-bottom: 27px;
+}
+.last-section-card-title {
+  font-family: "Gilroy";
+  font-size: 48px;
+  line-height: 58px;
+  width: 492px;
+  margin-bottom: 60px;
+}
+.last-section-card-link {
+  text-decoration: none;
+  font-family: "Gilroy";
+  font-size: 18px;
+  line-height: 140.62%;
+  color: var(--white-color);
+}
+.last-section-list {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  padding: 0;
+}
+.last-section-item {
+  max-width: 570px;
+  list-style-type: none;
+  padding: 48px 48px 50px 48px;
+}
+.last-section-list:last-child {
+  margin-right: 30px;
+}
+.last-section-item-title {
+  font-family: "Gilroy";
+  font-size: 26px;
+  line-height: 140.62%;
+  color: var(--base-icon-color);
+}
+.last-section-item-text {
+  font-family: "Gilroy";
+  font-size: 18px;
+  line-height: 140.62%;
+  color: var(--base-icon-color);
+  margin-top: 16px;
+}
+.last-section-item-link {
+  font-family: "Gilroy";
+  font-size: 14px;
+  line-height: 140.62%;
+  color: var(--base-icon-color);
+  margin-top: 16px;
+}
 
 /* Footer */
 .container.footer {
@@ -110,5 +179,3 @@ color: var(--base-icon-color);
   justify-content: center;
   align-items: center;
 }
-
-
