@@ -1,16 +1,20 @@
 html {
-    box-sizing: border-box;
-  }
-  
-
-.body {
-
+  box-sizing: border-box;
 }
 
-.root {
+:root {
+  --brand-color: #231f20;
+  --white-color: #ffffff;
+  --accent-color: #f7941e;
+  --secondary-background-color: #f1f1f2;
+  --bcg-color-lastsection: #231f20;
+  --base-icon-color: #000000;
+}
 
-
---base-icon-color: #000000;
+body {
+  font-family: "Montserrat", sans-serif;
+  color: var(--base-icon-color);
+  background-color: var(--white-color);
 }
 
 /* Utilities */
@@ -27,53 +31,84 @@ p {
   height: auto;
 }
 
+a{
+  text-decoration: none;
+}
 img {
-    display: block;
-  }
+  display: block;
+}
 
 .link {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .list {
-    list-style: none;
+  list-style: none;
 }
 
 .container {
-    max-width: 1440px;
-    
-    margin-left: 4px;
-    margin-right: 4px;
+  max-width: 1440px;
+  padding-left: 4px;
+  padding-right: 4px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/*Header*/
+
+.logo{
+font-family: 'Homemade Apple';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 2.17;
+display: flex;
+align-items: center;
+text-align: center;
+color: var(--bcg-color-lastsection);
+
+
+}
+
+.nav-link{
+font-size: 18px;
+line-height: 1.2;
+display: flex;
+align-items: center;
+color: var(--base-icon-color);
 }
 
 
 /* Footer */
 .container.footer {
-    max-height: 410px;
-    padding-left: 220px;
-    padding-right: 220px;
+  max-height: 410px;
+  padding-left: 220px;
+  padding-right: 220px;
 }
 
 .nav-footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-bottom: 1px solid #000000;;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #000000;
 }
 
 .social-links {
-    display: flex;
-    flex-wrap: nowrap;
-    gap: 24px;
-    justify-content: center;
-    align-items: center;
-    fill: var(--base-icon-color);
-   }
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+  fill: var(--base-icon-color);
+}
 
 .privacy {
-    display: flex;
-    flex-wrap: nowrap;
-    gap: 14px;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 14px;
+  justify-content: center;
+  align-items: center;
 }
+
+
