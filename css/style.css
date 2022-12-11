@@ -190,13 +190,13 @@ img {
   padding-left: 78px;
 }
 .last-section-card-name {
-  font-family: "Gilroy";
+  font-family: "Montserrat", sans-serif;
   font-size: 14px;
   line-height: 140.62%;
   margin-bottom: 27px;
 }
 .last-section-card-title {
-  font-family: "Gilroy";
+  font-family: "Montserrat", sans-serif;
   font-size: 48px;
   line-height: 58px;
   width: 492px;
@@ -204,7 +204,7 @@ img {
 }
 .last-section-card-link {
   text-decoration: none;
-  font-family: "Gilroy";
+  font-family: "Montserrat", sans-serif;
   font-size: 18px;
   line-height: 140.62%;
   color: var(--white-color);
@@ -224,20 +224,20 @@ img {
   margin-right: 30px;
 }
 .last-section-item-title {
-  font-family: "Gilroy";
-  font-size: 26px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
   line-height: 140.62%;
   color: var(--base-icon-color);
 }
 .last-section-item-text {
-  font-family: "Gilroy";
+  font-family: "Montserrat", sans-serif;
   font-size: 18px;
   line-height: 140.62%;
   color: var(--base-icon-color);
   margin-top: 16px;
 }
 .last-section-item-link {
-  font-family: "Gilroy";
+  font-family: "Montserrat", sans-serif;
   font-size: 14px;
   line-height: 140.62%;
   color: var(--base-icon-color);
