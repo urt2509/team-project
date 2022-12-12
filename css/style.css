@@ -138,12 +138,15 @@ border-radius: 5px;
 }
 
 .hero-button {
+  display: block;
+  margin-right: auto;
+
   padding-left: 25px;
   padding-top: 13px;
   padding-right: 25px;
   padding-bottom: 10px;
 
-  max-width: 200px;
+  min-width: 200px;
   min-height: 50px;
 
   font-size: 18px;
@@ -191,12 +194,15 @@ border-radius: 5px;
 }
 
 .content-button {
+  display: flex;
+  margin-right: auto;
+
   padding-left: 39px;
   padding-top: 13px;
   padding-right: 39px;
   padding-bottom: 10px;
 
-  max-width: 200px;
+  min-width: 200px;
   min-height: 50px;
 
   font-size: 18px;
