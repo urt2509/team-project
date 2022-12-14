@@ -59,8 +59,8 @@ img {
   min-width: 1440px;
   display: flex;
   padding-top: 37px;
-padding-bottom: 36px;
-align-items: center;
+  padding-bottom: 36px;
+  align-items: center;
 }
 
 .logo {
@@ -69,10 +69,10 @@ align-items: center;
   font-weight: 400;
   font-size: 18px;
   line-height: 2.17;
-margin-left: 80px;
+  margin-left: 80px;
   color: var(--bcg-color-lastsection);
-  }
-  
+}
+
 .nav.flex {
   display: block;
 }
@@ -98,12 +98,12 @@ margin-left: 80px;
   margin-right: 34px;
   min-width: 150px;
   font-size: 18px;
-line-height: 1.22;
-text-transform: uppercase;
+  line-height: 1.22;
+  text-transform: uppercase;
   color: var(--accent-color);
   background-color: var(--white-color);
   border: 1px solid var(--accent-color);
-border-radius: 5px;
+  border-radius: 5px;
 }
 /* Hero */
 .hero {
@@ -261,8 +261,24 @@ border-radius: 5px;
 .last-section {
   padding: 80px 135px;
   box-sizing: border-box;
-  display: inline-block;
-  width: 1440px;
+  display: block;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.last-section-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  line-height: 1.18;
+  text-align: center;
+ margin-bottom: 23px;
+}
+.last-section-subtitle {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  line-height: 135.94%;
+  text-align: center;
+  margin-bottom: 71px;
 }
 .last-section-card {
   max-width: 1170px;
