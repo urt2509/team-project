@@ -10,6 +10,7 @@ html {
   --bcg-color-last-section: #231f20;
   --base-icon-color: #000000;
   --transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  --occasion-card-color: #FAFAFA;
 }
 
 body {
@@ -275,6 +276,74 @@ img {
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-color: var(--white-color);
 }
+
+/*Gifts for all Occasions*/
+
+.occasions {
+  padding-top: 96px;
+  padding-bottom: 137px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.ocassions-title {
+  margin-bottom: 23px;
+  font-family: inherit;
+  font-size: 32px;
+  text-align: center;
+  line-height: 1.18;
+  color: var(--base-icon-color--)
+}
+
+.ocassions-description {
+  margin-bottom: 64px;
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 1.3;
+  text-align: center;
+  color: var(--base-icon-color--);
+}
+
+.occasions-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.occasions-card {
+  padding-bottom: 24px;
+  background-color: var(--occasion-card-color);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.occasions-card:hover {
+  background-color: var(--white-color);
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+}
+
+.occasions-card-text {
+  padding-top: 24px;
+  padding-left: 24px;
+  color: var(--base-icon-color--);
+}
+
+.occasions-card-title {
+  margin-bottom: 74px;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.occasions-card-link {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: var(--base-icon-color--);
+  line-height: 19.03px;
+}
+
 /* Start-section*/
 .section-start {
   padding: 80px 0;
