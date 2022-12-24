@@ -503,6 +503,7 @@ img {
 }
 
 .logo-footer {
+  display: block;
   margin: 0 141px;
 
   font-family: "Homemade Apple";
@@ -522,6 +523,7 @@ img {
 }
 
 .footer-link {
+  display: block;
   padding: 5px;
 
   font-size: 14px;
